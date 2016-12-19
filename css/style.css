@@ -40,3 +40,15 @@ td.score:hover {
     cursor: auto;
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+	table {
+		width: 100%;
+		min-height: 100vh;
+	}
+
+	th, td {
+		width: auto;
+		height: auto;
+	}
+}
